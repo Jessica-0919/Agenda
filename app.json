@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/diary/diary",
+    "pages/edit/edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "AGENDA",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#222",
+    "backgroundColor": "#f8f9fb",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "todos",
+        "iconPath": "./agenda/todos.png",
+        "selectedIconPath": "./agenda/todos-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "logs",
+        "iconPath": "./agenda/logs.png",
+        "selectedIconPath": "./agenda/logs-active.png"
+      },
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "diary",
+        "iconPath": "./agenda/diary.png",
+        "selectedIconPath": "./agenda/diary-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap28.json"
